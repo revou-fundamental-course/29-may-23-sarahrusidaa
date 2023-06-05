@@ -1,0 +1,58 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-bar {
+  display: flex;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.nav-item {
+  padding: 5px 1em;
+  width: 80px;
+  border-right: 1px solid black;
+  text-align: center;
+  cursor: pointer;
+}
+
+nav.item:hover {
+  background: rgb(116, 134, 139);
+  margin-top: -3px;
+}
+
+.navbar:last-child {
+  border-right: none;
+}
+
+.logo {
+  height: 2em;
+}
+
+.hero {
+  height: 550px;
+  background-image: url(../assets/background.jpg);
+  background-size: contain;
+  object-fit: contain;
+  background-repeat: no-repeat;
+}
+
+.wrapper {
+  display: flex;
+}
+
+.headquarters-image {
+  height: 5em;
+  border: 1px solid black;
+  border-radius: 50%;
+  width: 5em;
+}
+
+.headquarters-image-container {
+  display: inline-flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 0 1em;
+}
